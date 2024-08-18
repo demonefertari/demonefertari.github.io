@@ -370,17 +370,18 @@ html {
     background-color: #fff;
     min-height: 100%
 } */
- 
+
 body {
     margin: 0;
     font-size: 14px;
     font-family: Helvetica Neue, Helvetica, STHeiTi, Arial, sans-serif;
     line-height: 1.5;
     color: #333;
-    min-height: 100%;   
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),      
-                url('https://demonefertari.github.io/img/aether.jpg') no-repeat 0% 0%/ cover;
+    min-height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('https://demonefertari.github.io/img/aether.jpg') no-repeat 0% 0%/ cover;
 }
+
 article,
 aside,
 details,
@@ -960,6 +961,7 @@ html {
     overflow-y: auto;
     margin-bottom: 15px
 }
+
 .left-col .overlay {
     width: 100%;
     height: 180px;
@@ -1064,11 +1066,13 @@ html {
     -o-transition: -o-transform 1s ease-out;
     -ms-transition: -ms-transform 1s ease-out;
 }
+
 .left-col #header .profilepic img.show {
     width: 100%;
     height: 100%;
     opacity: 1
 }
+
 .left-col #header .profilepic img:hover {
     transform: rotate(1turn)
 }
@@ -2227,7 +2231,7 @@ pre .id {
     border-bottom: 1px solid #fff;
     background: rgba(255, 255, 255, .5);
     transition: all .2s ease-in
-}   
+}
 
 .article img {
     max-width: 100%
@@ -3168,8 +3172,9 @@ pre .id {
 
 @media screen and (max-width:800px) {
     body {
-		background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://demonefertari.github.io/img/mobile.jpg') no-repeat fixed top
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://demonefertari.github.io/img/mobile.jpg') no-repeat fixed top
     }
+
     #container,
     body,
     html {
@@ -4333,4 +4338,98 @@ a.pswp__share--download:hover {
 .pswp__error-msg a {
     color: #ccc;
     text-decoration: underline
+}
+
+/**文章分类css样式**/
+.category-count {
+	text-align:center;
+	line-height:3;
+	font-size:18px;
+	font-weight:bold;
+}
+.category-list {
+	text-align:center;
+	padding:20px
+}
+.category-list li.category-list-item {
+	display:inline-block;
+	margin:0 1em .5em 0;
+	padding:4px;
+	border:1px solid #aaaaaa;
+	font-size:1.2rem
+}
+.category-list li.category-list-item:hover {
+	background:rgba(204,204,204,0.3)
+}
+.tag-cloud {
+	text-align:center;
+	padding:20px
+}
+.tag-cloud a {
+	margin:0 20px;
+	word-break:keep-all;
+	position:relative
+}
+.tag-cloud a:hover::before {
+	width:100%;
+	left:0;
+	right:auto
+}
+.tag-cloud a::before {
+	content:"";
+	position:absolute;
+	width:0;
+	right:0;
+	bottom:0;
+	height:2px;
+	background:#08c;
+	-webkit-transition:width .3s ease;
+	transition:width .3s ease
+}.category-count {
+	text-align:center;
+	line-height:3;
+	font-size:18px;
+	font-weight:bold;
+    font-size: 55px;
+    text-align: center;
+    color: lightpink;
+}
+.category-list {
+	text-align:center;
+	padding:20px
+}
+.category-list li.category-list-item {
+	display:inline-block;
+	margin:0 1em .5em 0;
+	padding:4px;
+	border:1px solid #aaaaaa;
+	font-size:1.2rem
+}
+.category-list li.category-list-item:hover {
+	background:rgba(204,204,204,0.3)
+}
+.tag-cloud {
+	text-align:center;
+	padding:20px
+}
+.tag-cloud a {
+	margin:0 20px;
+	word-break:keep-all;
+	position:relative
+}
+.tag-cloud a:hover::before {
+	width:100%;
+	left:0;
+	right:auto
+}
+.tag-cloud a::before {
+	content:"";
+	position:absolute;
+	width:0;
+	right:0;
+	bottom:0;
+	height:2px;
+	background:#08c;
+	-webkit-transition:width .3s ease;
+	transition:width .3s ease
 }
