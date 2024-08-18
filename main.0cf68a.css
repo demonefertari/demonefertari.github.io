@@ -379,7 +379,7 @@ body {
     color: #333;
     min-height: 100%;   
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),      
-                url('img/aether.jpg') no-repeat 0% 0%/ cover;
+                url('https://demonefertari.github.io/img/aether.jpg') no-repeat 0% 0%/ cover;
 }
 article,
 aside,
@@ -3168,7 +3168,7 @@ pre .id {
 
 @media screen and (max-width:800px) {
     body {
-		background: url('img/mobile.jpg') no-repeat fixed top;
+		background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://demonefertari.github.io/img/mobile.jpg') no-repeat fixed top
     }
     #container,
     body,
@@ -3611,7 +3611,7 @@ pre .id {
         text-overflow: ellipsis;
         white-space: nowrap;
         display: block;
-        color: #a0a0a0
+        /* color: #a0a0a0 */
     }
 
     .header-menu li a.active {
